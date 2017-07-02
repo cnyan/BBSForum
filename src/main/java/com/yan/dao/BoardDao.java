@@ -17,7 +17,7 @@ import java.util.Iterator;
 public class BoardDao extends BaseDao<Board> {
 
 
-    private static final String GET_BOARD_NUM =  "select count(f.boardId) from Board as f";
+    private static final String GET_BOARD_NUM =  "select count(f.boardId) from Board as f ";
 
 
     /**
@@ -28,7 +28,6 @@ public class BoardDao extends BaseDao<Board> {
 
         Iterator iter = getHibernateTemplate().iterate(GET_BOARD_NUM);
         return ((Long)iter.next());
-        //return  0;
     }
 
 
