@@ -17,7 +17,7 @@ import java.util.Iterator;
 public class BoardDao extends BaseDao<Board> {
 
 
-    private static final String GET_BOARD_NUM =  "select count(f.boardId) from com.yan.domain.Board as f";
+    private static final String GET_BOARD_NUM =  "select count(f.boardId) from Board as f";
 
 
     /**
