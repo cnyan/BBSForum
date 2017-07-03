@@ -24,7 +24,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-dao:2.0.8" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.1" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.1" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:${aopalliance.version}" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi:3.9" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.5" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.2" />
