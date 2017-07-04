@@ -31,7 +31,7 @@ public class Board extends BaseDomain {
     private String boardDesc;
 
     @Column(name = "topic_num")
-    private int poticNum;
+    private int topicNum;
 
     // PERSIST 级联保存，MERGE 级联更新
     @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE},mappedBy = "manBoards",fetch = FetchType.LAZY)
@@ -63,12 +63,12 @@ public class Board extends BaseDomain {
         this.boardDesc = boardDesc;
     }
 
-    public int getPoticNum() {
-        return poticNum;
+    public int getTopicNum() {
+        return topicNum;
     }
 
-    public void setPoticNum(int poticNum) {
-        this.poticNum = poticNum;
+    public void setTopicNum(int topicNum) {
+        this.topicNum = topicNum;
     }
 
     public Set<User> getUsers() {
